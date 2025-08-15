@@ -6,7 +6,7 @@ const Hero = () => {
   const heroImages = [
     'https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
     'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
-    'https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=2025&q=80',
+    'https://images.unsplash.com/photo-1754338785265-487bdaf99827?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.1.0',
     'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80'
   ]
 
@@ -52,11 +52,21 @@ const Hero = () => {
       <div className="relative z-10 container-custom text-center text-white px-4 md:px-8 lg:px-16">
         <div className="max-w-4xl mx-auto animate-fade-in">
           {/* Main Headline */}
-          <h1 className="text-4xl md:text-4xl lg:text-5xl font-bold mb-8 leading-tight">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-8 mt-8 leading-tight">
             Nobody remembers the bland.
-            <br />
+            <br className="hidden xs:block" />
             <span className="text-gradient bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-              They remember the <span className="text-white border-b-2 border-white line-height-1">story</span> 
+              They remember the{" "}
+              <span className="relative inline-block">
+                <span className="text-white">story</span>
+                <span
+                  className="absolute -left-2 sm:-left-3 md:-left-5 right-0 -bottom-1 h-2"
+                  aria-hidden="true"
+                >
+                  <span className="block w-full h-full rounded-full bg-white opacity-80"></span>
+                </span>
+              </span>
+              <br className="hidden md:block" />
               that felt like it was made just for them.
             </span>
           </h1>

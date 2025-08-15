@@ -23,7 +23,7 @@ const WhatWeMake = () => {
     {
       title: "Narrative Productions",
       description: "Script to premiere, production, and strong creative direction.",
-      image: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=2025&q=80",
+      image: "https://images.unsplash.com/photo-1754338785265-487bdaf99827?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.1.0",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2m-9 0h10m-10 0a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V6a2 2 0 00-2-2" />
